@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
 }
 
 body {
@@ -10,10 +10,29 @@ body {
   color: #fff;
   width: 100%;
   height: 100%;
+  padding: 40px 200px;
+  text-align: center;
 }
 
 .box {
   width: 200px;
   height: 200px;
   background-color: cadetblue;
+}
+
+.para {
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
+.progress {
+  background-color: red;
+  position: fixed;
+  width: 100%;
+  height: 8px;
+  border-radius: 20px;
+  transform-origin: left;
+  margin-bottom: 10px;
+  top: 0;
+  left: 0;
 }
